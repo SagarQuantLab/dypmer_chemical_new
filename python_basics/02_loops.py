@@ -34,3 +34,17 @@ for idx, val in enumerate(list_1):
     print(idx, val)
 
 # dictonary loop
+my_dict = {
+    "Name" : "Rohan",
+    "Age" : 25,
+    "Gender" : "Male"
+}
+
+for iKey in my_dict.keys():
+    print(iKey)
+
+for iValue in my_dict.values():
+    print(iValue)
+
+for iItem in my_dict.items():
+    print(iItem)
